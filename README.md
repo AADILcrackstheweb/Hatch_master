@@ -15,7 +15,7 @@ dont worry if you load up the tool without any args youll go to the default wiza
 Also i removed the apt xvfb and pip2 pyvirtualdisplay
 ## Installation Instructions
 ```
-git clone https://github.com/MetaChar/Hatch
+https://github.com/AADILcrackstheweb/Hatch_master.git
 python2 main.py
 ```
 
@@ -37,7 +37,4 @@ for this fork, create a folder in your C drive called 'webdrivers' and place the
 4). The the login form <br>
 5). When Asked put in the username to brute force<br>
 6). Watch it go!
-
-## How to use (Video)
-[![IMAGE ALT TEXT](https://i.ytimg.com/vi/Hd_kQVnajxk/1.jpg)](https://youtu.be/Hd_kQVnajxk "Video Title")
 
