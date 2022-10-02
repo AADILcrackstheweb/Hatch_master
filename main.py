@@ -1,5 +1,3 @@
-# Coded by METACHAR
-# Looking to work with other hit me up on my email @metachar1@gmail.com <--
 import sys
 import datetime
 import selenium
@@ -10,8 +8,6 @@ from selenium import webdriver
 from optparse import OptionParser
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
-
-
 #Graphics
 class color:
    PURPLE = '\033[95m'
@@ -46,7 +42,7 @@ CHROME_DVR_DIR = "C:\\Users\\AADIL ARSH\\Downloads\\chromedriver_win32\\chromedr
 
 def wizard():
     print (banner)
-    website = 'https://ecampus.psgtech.ac.in/studzone2/'#input(color.GREEN + color.BOLD + '\n[~] ' + color.CWHITE + 'Enter a website: ')
+    website = 'https://pentestgrid.com'#input(color.GREEN + color.BOLD + '\n[~] ' + color.CWHITE + 'Enter a website: ')
     sys.stdout.write(color.GREEN + '[!] '+color.CWHITE + 'Checking if site exists '),
     sys.stdout.flush()
     t.sleep(1)
