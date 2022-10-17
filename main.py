@@ -34,7 +34,8 @@ parser.add_option("-u", "--username", dest="username",help="Choose the username"
 parser.add_option("--usernamesel", dest="usernamesel",help="Choose the username selector")
 parser.add_option("--passsel", dest="passsel",help="Choose the password selector")
 parser.add_option("--loginsel", dest="loginsel",help= "Choose the login button selector")
-parser.add_option("--passlist", dest="passlist",help="Enter the password list directory")
+parser.add_option("--passlist", dest="passlist",help="Enter the password list")
+parser.add_option("--passdir", dest="passdir",help="Enter the password list directory")
 parser.add_option("--website", dest="website",help="choose a website")
 (options, args) = parser.parse_args()
 
@@ -129,8 +130,9 @@ if options.username == None:
         if options.passsel == None:
             if options.loginsel == None:
                 if options.passlist == None:
-                    if options.website == None:
-                        wizard()
+                    if options.passdir == None:
+                        if options.website == None:
+                            wizard()
 
 
 username = options.username
@@ -139,5 +141,10 @@ password_selector = options.passsel
 login_btn_selector = options.loginsel
 website = options.website
 pass_list = options.passlist
+pass_dir = options.passdir
 print (banner)
+if pass_dir:
+    for i in os.listdir(pass_dir):
+        pass_list = i
+        brutes(username, username_selector ,password_selector,login_btn_selector,pass_list, website)
 brutes(username, username_selector ,password_selector,login_btn_selector,pass_list, website)
