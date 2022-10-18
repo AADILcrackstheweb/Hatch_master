@@ -36,8 +36,6 @@ for this fork, create a folder in your C drive called 'webdrivers' and place the
 3). Do the same for the password field<br>
 4). The the login form <br>
 5). When Asked put in the username to brute force<br>
-6). Watch it run as soon as!
+6). Watch it run as soon as you press enter!
 
-
-hi!
 
