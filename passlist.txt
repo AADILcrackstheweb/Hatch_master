@@ -1,6 +1,8 @@
-123456
 password
 neemleaves
+1
+12
+123
 @wert
 wertyuiop
 Dog.lov3r
@@ -40,6 +42,12 @@ ilovemypiano
 Sterling	
 SterlingGmal2015	
 SterlingGmail20.15
+1
+12
+123
+1234
+12345
+123456
 BankLogin	
 BankLogin13	
 BankLogin!3
