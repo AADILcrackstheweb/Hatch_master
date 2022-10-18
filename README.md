@@ -39,5 +39,3 @@ for this fork, create a folder in your C drive called 'webdrivers' and place the
 6). Watch it run as soon as you press enter!
 
 
-hi!
-
