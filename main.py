@@ -10,6 +10,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 #importing databases
 #Graphics
+#importing colours to the cmd
 class color:
    PURPLE = '\033[95m'
    CYAN = '\033[96m'
