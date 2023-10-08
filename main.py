@@ -69,7 +69,7 @@ def wizard():
     username_selector ='#txtusercheck'  #input(color.GREEN + '[~] ' + color.CWHITE + 'Enter the username selector: ')
     password_selector = '#txtpwdcheck' #input(color.GREEN + '[~] ' + color.CWHITE + 'Enter the password selector: ')
     login_btn_selector = '#abcd3' #input(color.GREEN + '[~] ' + color.CWHITE + 'Enter the Login button selector: ')
-    username = '21z213' #input(color.GREEN + '[~] ' + color.CWHITE + 'Enter the username to brute-force: ')
+    username = '21z201' #input(color.GREEN + '[~] ' + color.CWHITE + 'Enter the username to brute-force: ')
     pass_list = "dates.txt"#input(color.GREEN + '[~] ' + color.CWHITE + 'Enter a directory to a password list: ')
     brutes(username, username_selector ,password_selector,login_btn_selector,pass_list, website)
 
